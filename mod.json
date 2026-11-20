@@ -1,0 +1,47 @@
+{
+	"geode": "5.0.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"version": "v1.0.0",
+	"id": "tuusuario.showcase-tools",
+	"name": "Showcase Tools",
+	"developer": "TuUsuario",
+	"description": "Herramientas para grabar showcases limpios: oculta intentos, porcentaje, barra de progreso y botones de práctica.",
+	"tags": ["utility", "customization"],
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"default": true,
+			"name": "Modo Showcase activado",
+			"description": "Activa o desactiva todas las opciones de abajo."
+		},
+		"hide-attempts": {
+			"type": "bool",
+			"default": true,
+			"name": "Ocultar intentos",
+			"description": "Oculta el texto de \"Attempt X\"."
+		},
+		"hide-percentage": {
+			"type": "bool",
+			"default": true,
+			"name": "Ocultar porcentaje",
+			"description": "Oculta el porcentaje del nivel."
+		},
+		"hide-progress-bar": {
+			"type": "bool",
+			"default": true,
+			"name": "Ocultar barra de progreso",
+			"description": "Oculta la barra de progreso."
+		},
+		"hide-practice-buttons": {
+			"type": "bool",
+			"default": true,
+			"name": "Ocultar botones de práctica",
+			"description": "Oculta los botones de checkpoint en modo práctica."
+		}
+	}
+}
